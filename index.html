@@ -7,12 +7,17 @@
     <title>Mario Bros</title>
 </head>
 <body>
+        <header class="navbar">
+            <img src="./assets/logo-header.png  " alt="Logo do site">   
+            <a>Home</a>
+            <a>Fale Conosco</a>
+            <a>Nossos Serviços</a>
+        </header>
     <main class="container">
         <section class="texto-inicial">
     <img class="imagem-principal" src="./assets/logo.png" alt="logo">
   
          <h1>🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧 </h1>
-            <br>
         <p>
                 Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
                 entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
@@ -22,15 +27,27 @@
       <button>entre em contato</button>
         </section>
 
-        <section class="imagem-secundaria">
+        <figure class="imagem-secundaria">
         <img src="./assets/mario.png" alt="Mario e Luigi">
-        </section>
+        </figure>
   
     </main>     
     <div class="video-background">
-        <video autoplay muted loop>
-            <source src="./assets/video.mp4" type="video/mp4">
-        </video>
+       <div class="gradient-setting"></div>
+        <video src="./assets/video.mp4" autoplay muted loop></video>
     </div>
+
+    <aside>
+        <a href="https://wa.me/5511999999999?text=Quero%20contratar%20um%20servi%C3%A7o!" target="_blank" class="btn-whatsapp">
+            <img src="./assets/whatsapp.png" alt="WhatsApp">
+        </a>
+    </aside>
+
+    <dialog>
+        <input type="text" placeholder="Digite seu Nome"/>
+        <input type="text" placeholder="Digite seu Email"/>
+        <textarea placeholder="Digite sua mensagem..."></textarea>
+        <button>Enviar</button>
+    </dialog>
 </body>
 </html>     
